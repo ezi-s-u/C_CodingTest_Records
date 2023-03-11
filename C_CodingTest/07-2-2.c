@@ -8,7 +8,7 @@ int main() {
 			printf("%c",'o');
 			j++;
 		}
-		printf("%c", '*');
+		printf("%c\n", '*');
 		i++;
 	}
 	return 0;
