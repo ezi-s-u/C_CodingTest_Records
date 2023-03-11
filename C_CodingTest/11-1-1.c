@@ -11,6 +11,13 @@ int main(void) {
 		if (arr[i] >= max) {
 			max = arr[i];
 		}
-		if(arr[i] <)
+		if (arr[i] <= max) {
+			min = arr[i];
+		}
+		total += arr[i];
 	}
+
+	printf("ÃÖ´ñ°ª : %d\n", max);
+	printf("ÃÖ¼Ú°ª : %d\n", min);
+	printf("ÃÑ ÇÕ : %d\n", total);
 }
