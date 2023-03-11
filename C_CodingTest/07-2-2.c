@@ -5,10 +5,10 @@ int main() {
 	while (i < 5) {
 		j = 0;
 		while (j < i) {
-			printf('o');
+			printf("%c",'o');
 			j++;
 		}
-		printf('*');
+		printf("%c", '*');
 		i++;
 	}
 	return 0;
