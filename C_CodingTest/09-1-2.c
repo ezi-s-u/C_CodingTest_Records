@@ -11,5 +11,6 @@ double FahToCel(int f) {
 int main() {
 	printf("화씨 온도로 변환한 값 : %.1f\n",CelToFah(5));
 	printf("섭씨 온도로 변환한 값 : %.1f\n", FahToCel(10));
+
 	return 0;
 }
