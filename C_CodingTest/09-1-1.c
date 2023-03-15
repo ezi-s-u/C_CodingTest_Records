@@ -3,7 +3,7 @@
 int max(int a, int b, int c);
 
 int main() {
-
+	printf("가장 큰 수 : %d",max(4, 6, 2));
 	return 0;
 }
 
