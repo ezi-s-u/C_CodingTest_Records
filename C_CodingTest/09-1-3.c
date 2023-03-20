@@ -5,7 +5,7 @@ int main(void) {
 	printf("몇 개의 피보나치 수열을 출력하시겠습니까\n");
 	scanf_s("%d", &num);
 	printf("\n0 1 ");
-	for (int i = 0; i < num; i++) {
+	for (int i = 0; i < num - 2; i++) {
 		f3 = f1 + f2;
 		printf("%d ", f3);
 		f1 = f2;
