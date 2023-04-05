@@ -3,10 +3,10 @@
 int main(void) {
 	int res = 0, i = 0, total = 0;
 	while (i < 5) {
-		printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		scanf_s("%d", &res);
 		while (res <= 0) {
-			printf("0º¸´Ù Å« ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			printf("0ë³´ë‹¤ í° ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 			scanf_s("%d", &res);
 		}
 		total += res;
